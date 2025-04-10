@@ -1,0 +1,31 @@
+Dependencies for Project 'Test', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6772B3ED)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/S32K144HAxxxLLx-I./RTE/_Target_1-IC:/Users/namvo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/common-D__UVISION_VERSION="541" -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/main.o -MMD)
+I (GPIO.h)(0x674D51B7)
+I (GPIO_Registers.h)(0x6754F95C)
+F (.\GPIO.h)(0x674D51B7)()
+F (.\GPIO_Registers.h)(0x6754F95C)()
+F (.\GPIO.c)(0x6755BE8D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/S32K144HAxxxLLx-I./RTE/_Target_1-IC:/Users/namvo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/common-D__UVISION_VERSION="541" -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/gpio.o -MMD)
+I (GPIO.h)(0x674D51B7)
+I (GPIO_Registers.h)(0x6754F95C)
+F (C:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/startup.c)(0x6743BE3C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/S32K144HAxxxLLx-I./RTE/_Target_1-IC:/Users/namvo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/common-D__UVISION_VERSION="541" -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/startup.o -MMD)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\startup.h)(0x6743BE3C)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\device_registers.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\common\s32_core_cm4.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\S32K144\include\S32K144.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BE698)
+I (RTE\Device\S32K144HAxxxLLx\system_S32K144.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\S32K144\include\S32K144_features.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\devassert.h)(0x6743BE3B)
+F (RTE/Device/S32K144HAxxxLLx/S32K144_64_flash.sct)(0x6743BE3B)()
+F (RTE/Device/S32K144HAxxxLLx/S32K144_64_ram.sct)(0x6743BE3B)()
+F (RTE/Device/S32K144HAxxxLLx/startup_S32K144.S)(0x6743BE3B)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4 -D__EVAL -MMD-I./RTE/Device/S32K144HAxxxLLx-I./RTE/_Target_1-IC:/Users/namvo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/common-D__UVISION_VERSION=541 -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/startup_s32k144.o)
+F (RTE/Device/S32K144HAxxxLLx/system_S32K144.c)(0x6743BE3B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Wall -Wextra -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/Device/S32K144HAxxxLLx-I./RTE/_Target_1-IC:/Users/namvo/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices-IC:/Users/namvo/AppData/Local/Arm/Packs/Keil/S32_SDK_DFP/1.5.1/platform/devices/common-D__UVISION_VERSION="541" -DCPU_S32K144HFT0VLLT -D_RTE_-o ./objects/system_s32k144.o -MMD)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\device_registers.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\common\s32_core_cm4.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\S32K144\include\S32K144.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664BE698)
+I (RTE\Device\S32K144HAxxxLLx\system_S32K144.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\S32K144\include\S32K144_features.h)(0x6743BE3B)
+I (C:\Users\namvo\AppData\Local\Arm\Packs\Keil\S32_SDK_DFP\1.5.1\platform\devices\devassert.h)(0x6743BE3B)
+F (RTE/Device/S32K144HAxxxLLx/system_S32K144.h)(0x6743BE3B)()
